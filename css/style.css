@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 html {
     background-color: lightblue;
 }
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -96,3 +101,27 @@ html {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* //nav// */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.myNav {
+  background: black;
+  color: white;
+  height: 80px;
+}
+
+.myNav ul {
+  list-style: none;
+}
+
+.myNav li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
